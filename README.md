@@ -17,3 +17,8 @@ Python, Scala.
 - Apache Spark (version 2.3.1)
 - Scala (version  2.12.6)
 - 7z to unzip compressed twitter data output
+
+### Folder Structure:
+- src\output : Contains collected tweets data, extracted URLs and Hashtags from Hadoop,Spark.
+- src\main\code: Contains the code used to extract tweets from twitter, logic to extract URLs and Hashtags
+- src\log_files: Contains the log files collected from hadoop and spark
