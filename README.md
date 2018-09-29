@@ -13,7 +13,7 @@ We need few languages and software that has to be installed in the system before
 ### Languages: 
 Python, Scala.
 ### Software requirements: 
-Apache Hadoop (version 2.8.1)
-Apache Spark (version 2.3.1)
-JDK 8
-Scala (version  2.12.6)
+- Apache Hadoop (version 2.8.1)
+- Apache Spark (version 2.3.1)
+- Scala (version  2.12.6)
+- 7z to unzip compressed twitter data output
