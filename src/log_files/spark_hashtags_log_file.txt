@@ -1,0 +1,125 @@
+2018-09-27 19:03:26 WARN  NativeCodeLoader:62 - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2018-09-27 19:03:27 INFO  SparkContext:54 - Running Spark version 2.3.1
+2018-09-27 19:03:27 INFO  SparkContext:54 - Submitted application: JavaWordCount
+2018-09-27 19:03:27 INFO  SecurityManager:54 - Changing view acls to: srividyavaranasi
+2018-09-27 19:03:27 INFO  SecurityManager:54 - Changing modify acls to: srividyavaranasi
+2018-09-27 19:03:27 INFO  SecurityManager:54 - Changing view acls groups to: 
+2018-09-27 19:03:27 INFO  SecurityManager:54 - Changing modify acls groups to: 
+2018-09-27 19:03:27 INFO  SecurityManager:54 - SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(srividyavaranasi); groups with view permissions: Set(); users  with modify permissions: Set(srividyavaranasi); groups with modify permissions: Set()
+2018-09-27 19:03:27 INFO  Utils:54 - Successfully started service 'sparkDriver' on port 65087.
+2018-09-27 19:03:27 INFO  SparkEnv:54 - Registering MapOutputTracker
+2018-09-27 19:03:27 INFO  SparkEnv:54 - Registering BlockManagerMaster
+2018-09-27 19:03:27 INFO  BlockManagerMasterEndpoint:54 - Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+2018-09-27 19:03:27 INFO  BlockManagerMasterEndpoint:54 - BlockManagerMasterEndpoint up
+2018-09-27 19:03:27 INFO  DiskBlockManager:54 - Created local directory at /private/var/folders/q0/8759g9n955dc8_c3hdyfnvrw0000gn/T/blockmgr-9197076a-3ea2-4421-ad77-736245a88839
+2018-09-27 19:03:27 INFO  MemoryStore:54 - MemoryStore started with capacity 366.3 MB
+2018-09-27 19:03:27 INFO  SparkEnv:54 - Registering OutputCommitCoordinator
+2018-09-27 19:03:27 INFO  log:192 - Logging initialized @2458ms
+2018-09-27 19:03:27 INFO  Server:346 - jetty-9.3.z-SNAPSHOT
+2018-09-27 19:03:27 INFO  Server:414 - Started @2565ms
+2018-09-27 19:03:27 INFO  AbstractConnector:278 - Started ServerConnector@1fca6448{HTTP/1.1,[http/1.1]}{0.0.0.0:4040}
+2018-09-27 19:03:27 INFO  Utils:54 - Successfully started service 'SparkUI' on port 4040.
+2018-09-27 19:03:27 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@602c4656{/jobs,null,AVAILABLE,@Spark}
+2018-09-27 19:03:27 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@6b9c69a9{/jobs/json,null,AVAILABLE,@Spark}
+2018-09-27 19:03:27 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@6622a690{/jobs/job,null,AVAILABLE,@Spark}
+2018-09-27 19:03:27 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@497570fb{/jobs/job/json,null,AVAILABLE,@Spark}
+2018-09-27 19:03:27 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@412c995d{/stages,null,AVAILABLE,@Spark}
+2018-09-27 19:03:27 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@3249a1ce{/stages/json,null,AVAILABLE,@Spark}
+2018-09-27 19:03:27 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@4dd94a58{/stages/stage,null,AVAILABLE,@Spark}
+2018-09-27 19:03:27 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@75b21c3b{/stages/stage/json,null,AVAILABLE,@Spark}
+2018-09-27 19:03:27 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@72be135f{/stages/pool,null,AVAILABLE,@Spark}
+2018-09-27 19:03:27 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@155d1021{/stages/pool/json,null,AVAILABLE,@Spark}
+2018-09-27 19:03:27 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@4bd2f0dc{/storage,null,AVAILABLE,@Spark}
+2018-09-27 19:03:27 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@2e647e59{/storage/json,null,AVAILABLE,@Spark}
+2018-09-27 19:03:27 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@2c42b421{/storage/rdd,null,AVAILABLE,@Spark}
+2018-09-27 19:03:27 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@51e37590{/storage/rdd/json,null,AVAILABLE,@Spark}
+2018-09-27 19:03:27 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@deb3b60{/environment,null,AVAILABLE,@Spark}
+2018-09-27 19:03:27 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@701a32{/environment/json,null,AVAILABLE,@Spark}
+2018-09-27 19:03:27 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@39aa45a1{/executors,null,AVAILABLE,@Spark}
+2018-09-27 19:03:27 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@73aff8f1{/executors/json,null,AVAILABLE,@Spark}
+2018-09-27 19:03:27 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@27cbfddf{/executors/threadDump,null,AVAILABLE,@Spark}
+2018-09-27 19:03:27 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@27ead29e{/executors/threadDump/json,null,AVAILABLE,@Spark}
+2018-09-27 19:03:27 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@4c060c8f{/static,null,AVAILABLE,@Spark}
+2018-09-27 19:03:27 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@f2c488{/,null,AVAILABLE,@Spark}
+2018-09-27 19:03:27 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@54acff7d{/api,null,AVAILABLE,@Spark}
+2018-09-27 19:03:27 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@712ca57b{/jobs/job/kill,null,AVAILABLE,@Spark}
+2018-09-27 19:03:27 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@4564e94b{/stages/stage/kill,null,AVAILABLE,@Spark}
+2018-09-27 19:03:27 INFO  SparkUI:54 - Bound SparkUI to 0.0.0.0, and started at http://srividyas-air.kc.umkc.edu:4040
+2018-09-27 19:03:28 INFO  SparkContext:54 - Added JAR file:///Users/srividyavaranasi/spark-2.3.1-bin-hadoop2.7/examples/jars/spark-examples_2.11-2.3.1.jar at spark://srividyas-air.kc.umkc.edu:65087/jars/spark-examples_2.11-2.3.1.jar with timestamp 1538093008084
+2018-09-27 19:03:28 INFO  SparkContext:54 - Added JAR file:///Users/srividyavaranasi/spark-2.3.1-bin-hadoop2.7/examples/jars/scopt_2.11-3.7.0.jar at spark://srividyas-air.kc.umkc.edu:65087/jars/scopt_2.11-3.7.0.jar with timestamp 1538093008086
+2018-09-27 19:03:28 INFO  Executor:54 - Starting executor ID driver on host localhost
+2018-09-27 19:03:28 INFO  Utils:54 - Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 65088.
+2018-09-27 19:03:28 INFO  NettyBlockTransferService:54 - Server created on srividyas-air.kc.umkc.edu:65088
+2018-09-27 19:03:28 INFO  BlockManager:54 - Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+2018-09-27 19:03:28 INFO  BlockManagerMaster:54 - Registering BlockManager BlockManagerId(driver, srividyas-air.kc.umkc.edu, 65088, None)
+2018-09-27 19:03:28 INFO  BlockManagerMasterEndpoint:54 - Registering block manager srividyas-air.kc.umkc.edu:65088 with 366.3 MB RAM, BlockManagerId(driver, srividyas-air.kc.umkc.edu, 65088, None)
+2018-09-27 19:03:28 INFO  BlockManagerMaster:54 - Registered BlockManager BlockManagerId(driver, srividyas-air.kc.umkc.edu, 65088, None)
+2018-09-27 19:03:28 INFO  BlockManager:54 - Initialized BlockManager: BlockManagerId(driver, srividyas-air.kc.umkc.edu, 65088, None)
+2018-09-27 19:03:28 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@35088e87{/metrics/json,null,AVAILABLE,@Spark}
+2018-09-27 19:03:28 INFO  SharedState:54 - Setting hive.metastore.warehouse.dir ('null') to the value of spark.sql.warehouse.dir ('file:/Users/srividyavaranasi/spark-2.3.1-bin-hadoop2.7/bin/spark-warehouse/').
+2018-09-27 19:03:28 INFO  SharedState:54 - Warehouse path is 'file:/Users/srividyavaranasi/spark-2.3.1-bin-hadoop2.7/bin/spark-warehouse/'.
+2018-09-27 19:03:28 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@6f38a289{/SQL,null,AVAILABLE,@Spark}
+2018-09-27 19:03:28 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@61e3cf4d{/SQL/json,null,AVAILABLE,@Spark}
+2018-09-27 19:03:28 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@3157e4c0{/SQL/execution,null,AVAILABLE,@Spark}
+2018-09-27 19:03:28 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@6eaa21d8{/SQL/execution/json,null,AVAILABLE,@Spark}
+2018-09-27 19:03:28 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@39e67516{/static/sql,null,AVAILABLE,@Spark}
+2018-09-27 19:03:29 INFO  StateStoreCoordinatorRef:54 - Registered StateStoreCoordinator endpoint
+2018-09-27 19:03:32 INFO  FileSourceStrategy:54 - Pruning directories with: 
+2018-09-27 19:03:32 INFO  FileSourceStrategy:54 - Post-Scan Filters: 
+2018-09-27 19:03:32 INFO  FileSourceStrategy:54 - Output Data Schema: struct<value: string>
+2018-09-27 19:03:32 INFO  FileSourceScanExec:54 - Pushed Filters: 
+2018-09-27 19:03:33 INFO  CodeGenerator:54 - Code generated in 207.697449 ms
+2018-09-27 19:03:33 INFO  MemoryStore:54 - Block broadcast_0 stored as values in memory (estimated size 277.9 KB, free 366.0 MB)
+2018-09-27 19:03:33 INFO  MemoryStore:54 - Block broadcast_0_piece0 stored as bytes in memory (estimated size 23.4 KB, free 366.0 MB)
+2018-09-27 19:03:33 INFO  BlockManagerInfo:54 - Added broadcast_0_piece0 in memory on srividyas-air.kc.umkc.edu:65088 (size: 23.4 KB, free: 366.3 MB)
+2018-09-27 19:03:33 INFO  SparkContext:54 - Created broadcast 0 from javaRDD at JavaWordCount.java:45
+2018-09-27 19:03:33 INFO  FileSourceScanExec:54 - Planning scan with bin packing, max size: 4194304 bytes, open cost is considered as scanning 4194304 bytes.
+2018-09-27 19:03:33 INFO  SparkContext:54 - Starting job: collect at JavaWordCount.java:53
+2018-09-27 19:03:33 INFO  DAGScheduler:54 - Registering RDD 5 (mapToPair at JavaWordCount.java:49)
+2018-09-27 19:03:33 INFO  DAGScheduler:54 - Got job 0 (collect at JavaWordCount.java:53) with 1 output partitions
+2018-09-27 19:03:33 INFO  DAGScheduler:54 - Final stage: ResultStage 1 (collect at JavaWordCount.java:53)
+2018-09-27 19:03:33 INFO  DAGScheduler:54 - Parents of final stage: List(ShuffleMapStage 0)
+2018-09-27 19:03:33 INFO  DAGScheduler:54 - Missing parents: List(ShuffleMapStage 0)
+2018-09-27 19:03:33 INFO  DAGScheduler:54 - Submitting ShuffleMapStage 0 (MapPartitionsRDD[5] at mapToPair at JavaWordCount.java:49), which has no missing parents
+2018-09-27 19:03:33 INFO  MemoryStore:54 - Block broadcast_1 stored as values in memory (estimated size 12.5 KB, free 366.0 MB)
+2018-09-27 19:03:33 INFO  MemoryStore:54 - Block broadcast_1_piece0 stored as bytes in memory (estimated size 6.5 KB, free 366.0 MB)
+2018-09-27 19:03:33 INFO  BlockManagerInfo:54 - Added broadcast_1_piece0 in memory on srividyas-air.kc.umkc.edu:65088 (size: 6.5 KB, free: 366.3 MB)
+2018-09-27 19:03:33 INFO  SparkContext:54 - Created broadcast 1 from broadcast at DAGScheduler.scala:1039
+2018-09-27 19:03:33 INFO  DAGScheduler:54 - Submitting 1 missing tasks from ShuffleMapStage 0 (MapPartitionsRDD[5] at mapToPair at JavaWordCount.java:49) (first 15 tasks are for partitions Vector(0))
+2018-09-27 19:03:33 INFO  TaskSchedulerImpl:54 - Adding task set 0.0 with 1 tasks
+2018-09-27 19:03:33 INFO  TaskSetManager:54 - Starting task 0.0 in stage 0.0 (TID 0, localhost, executor driver, partition 0, ANY, 8299 bytes)
+2018-09-27 19:03:33 INFO  Executor:54 - Running task 0.0 in stage 0.0 (TID 0)
+2018-09-27 19:03:33 INFO  Executor:54 - Fetching spark://srividyas-air.kc.umkc.edu:65087/jars/scopt_2.11-3.7.0.jar with timestamp 1538093008086
+2018-09-27 19:03:33 INFO  TransportClientFactory:267 - Successfully created connection to Srividyas-Air.kc.umkc.edu/10.151.1.176:65087 after 30 ms (0 ms spent in bootstraps)
+2018-09-27 19:03:33 INFO  Utils:54 - Fetching spark://srividyas-air.kc.umkc.edu:65087/jars/scopt_2.11-3.7.0.jar to /private/var/folders/q0/8759g9n955dc8_c3hdyfnvrw0000gn/T/spark-727ad5d9-6901-4486-8973-6b3e7b18e02b/userFiles-bd228eae-41e6-43c0-a84c-6c3f9d13d14e/fetchFileTemp6886290749294492031.tmp
+2018-09-27 19:03:33 INFO  Executor:54 - Adding file:/private/var/folders/q0/8759g9n955dc8_c3hdyfnvrw0000gn/T/spark-727ad5d9-6901-4486-8973-6b3e7b18e02b/userFiles-bd228eae-41e6-43c0-a84c-6c3f9d13d14e/scopt_2.11-3.7.0.jar to class loader
+2018-09-27 19:03:33 INFO  Executor:54 - Fetching spark://srividyas-air.kc.umkc.edu:65087/jars/spark-examples_2.11-2.3.1.jar with timestamp 1538093008084
+2018-09-27 19:03:33 INFO  Utils:54 - Fetching spark://srividyas-air.kc.umkc.edu:65087/jars/spark-examples_2.11-2.3.1.jar to /private/var/folders/q0/8759g9n955dc8_c3hdyfnvrw0000gn/T/spark-727ad5d9-6901-4486-8973-6b3e7b18e02b/userFiles-bd228eae-41e6-43c0-a84c-6c3f9d13d14e/fetchFileTemp7968168989781998763.tmp
+2018-09-27 19:03:33 INFO  Executor:54 - Adding file:/private/var/folders/q0/8759g9n955dc8_c3hdyfnvrw0000gn/T/spark-727ad5d9-6901-4486-8973-6b3e7b18e02b/userFiles-bd228eae-41e6-43c0-a84c-6c3f9d13d14e/spark-examples_2.11-2.3.1.jar to class loader
+2018-09-27 19:03:33 INFO  CodeGenerator:54 - Code generated in 21.509328 ms
+2018-09-27 19:03:33 INFO  FileScanRDD:54 - Reading File path: hdfs://localhost:9000/pbphase1/url_output.txt, range: 0-416206, partition values: [empty row]
+2018-09-27 19:03:33 INFO  CodeGenerator:54 - Code generated in 13.304953 ms
+2018-09-27 19:03:34 INFO  Executor:54 - Finished task 0.0 in stage 0.0 (TID 0). 1766 bytes result sent to driver
+2018-09-27 19:03:34 INFO  TaskSetManager:54 - Finished task 0.0 in stage 0.0 (TID 0) in 923 ms on localhost (executor driver) (1/1)
+2018-09-27 19:03:34 INFO  TaskSchedulerImpl:54 - Removed TaskSet 0.0, whose tasks have all completed, from pool 
+2018-09-27 19:03:34 INFO  DAGScheduler:54 - ShuffleMapStage 0 (mapToPair at JavaWordCount.java:49) finished in 1.060 s
+2018-09-27 19:03:34 INFO  DAGScheduler:54 - looking for newly runnable stages
+2018-09-27 19:03:34 INFO  DAGScheduler:54 - running: Set()
+2018-09-27 19:03:34 INFO  DAGScheduler:54 - waiting: Set(ResultStage 1)
+2018-09-27 19:03:34 INFO  DAGScheduler:54 - failed: Set()
+2018-09-27 19:03:34 INFO  DAGScheduler:54 - Submitting ResultStage 1 (ShuffledRDD[6] at reduceByKey at JavaWordCount.java:51), which has no missing parents
+2018-09-27 19:03:34 INFO  MemoryStore:54 - Block broadcast_2 stored as values in memory (estimated size 3.7 KB, free 366.0 MB)
+2018-09-27 19:03:34 INFO  MemoryStore:54 - Block broadcast_2_piece0 stored as bytes in memory (estimated size 2.1 KB, free 366.0 MB)
+2018-09-27 19:03:34 INFO  BlockManagerInfo:54 - Added broadcast_2_piece0 in memory on srividyas-air.kc.umkc.edu:65088 (size: 2.1 KB, free: 366.3 MB)
+2018-09-27 19:03:34 INFO  SparkContext:54 - Created broadcast 2 from broadcast at DAGScheduler.scala:1039
+2018-09-27 19:03:34 INFO  DAGScheduler:54 - Submitting 1 missing tasks from ResultStage 1 (ShuffledRDD[6] at reduceByKey at JavaWordCount.java:51) (first 15 tasks are for partitions Vector(0))
+2018-09-27 19:03:34 INFO  TaskSchedulerImpl:54 - Adding task set 1.0 with 1 tasks
+2018-09-27 19:03:34 INFO  TaskSetManager:54 - Starting task 0.0 in stage 1.0 (TID 1, localhost, executor driver, partition 0, ANY, 7649 bytes)
+2018-09-27 19:03:34 INFO  Executor:54 - Running task 0.0 in stage 1.0 (TID 1)
+2018-09-27 19:03:34 INFO  ShuffleBlockFetcherIterator:54 - Getting 1 non-empty blocks out of 1 blocks
+2018-09-27 19:03:34 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 8 ms
+2018-09-27 19:03:34 INFO  Executor:54 - Finished task 0.0 in stage 1.0 (TID 1). 508916 bytes result sent to driver
+2018-09-27 19:03:34 INFO  TaskSetManager:54 - Finished task 0.0 in stage 1.0 (TID 1) in 284 ms on localhost (executor driver) (1/1)
+2018-09-27 19:03:34 INFO  TaskSchedulerImpl:54 - Removed TaskSet 1.0, whose tasks have all completed, from pool 
+2018-09-27 19:03:34 INFO  DAGScheduler:54 - ResultStage 1 (collect at JavaWordCount.java:53) finished in 0.297 s
+2018-09-27 19:03:34 INFO  DAGScheduler:54 - Job 0 finished: collect at JavaWordCount.java:53, took 1.444884 s
