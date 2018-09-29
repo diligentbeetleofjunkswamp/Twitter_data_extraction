@@ -9,8 +9,10 @@ We have used Spark here as it mainly works on Hadoop. It does faster computation
 ## System Requirements
 
 We need few languages and software that has to be installed in the system before collecting the data.
- Languages: Java, Python, Sql, Scala.
-Software requirements: 
+
+### Languages: 
+Python, Scala.
+### Software requirements: 
 Apache Hadoop (version 2.8.1)
 Apache Spark (version 2.3.1)
 JDK 8
