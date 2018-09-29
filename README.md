@@ -12,6 +12,7 @@ We need few languages and software that has to be installed in the system before
 
 ### Languages: 
 Python, Scala.
+
 ### Software requirements: 
 - Apache Hadoop (version 2.8.1)
 - Apache Spark (version 2.3.1)
