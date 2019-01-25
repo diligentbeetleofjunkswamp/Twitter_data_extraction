@@ -23,3 +23,5 @@ Python, Scala.
 - src\output : Contains collected tweets data, extracted URLs and Hashtags from Hadoop,Spark.
 - src\main\code: Contains the code used to extract tweets from twitter, logic to extract URLs and Hashtags
 - src\log_files: Contains the log files collected from hadoop and spark
+
+Completed
