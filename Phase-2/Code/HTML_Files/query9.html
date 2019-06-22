@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+		<html>
+		<head>
+
+		</head>
+		<body>
+			  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+		        google.charts.load('current', {'packages':['table']});
+      google.charts.setOnLoadCallback(drawTable);
+
+      function drawTable() {
+        var data = new google.visualization.DataTable();
+        data.addColumn('string', 'Name');
+
+        data.addRows([
+          ["<a href=\"https://crypto.watch.impress.co.jp/\" rel=\"nofollow\">仮想通貨 Watch</a>"],
+	      ["<a href=\"http://www.borsagundem.com\" rel=\"nofollow\">Borsagundem Social App</a>"],
+          ["<a href=\"https://www.mavsocial.com\" rel=\"nofollow\">MavSocial App</a>"],
+          ["<a href=\"http://www.venturecanvas.com\" rel=\"nofollow\">Wordpress VC</a>"],
+          ["<a href=\"http://www.diariobitcoin.com\" rel=\"nofollow\">wp_tweeting_bot</a>"],
+          ["<a href=\"http://www.damenknight.com\" rel=\"nofollow\">dogecointicker</a>"],
+          ["<a href=\"https://github.com/itsdennian\" rel=\"nofollow\">bitcoin_price_tweeter</a>"],
+          ["<a href=\"https://stocktwits.com\" rel=\"nofollow\">StockTwits Web</a>"],
+          ["<a href=\"http://www.tweetedtimes.com\" rel=\"nofollow\">The Tweeted Times</a>"],
+          ["<a href=\"https://gab.ai\" rel=\"nofollow\">Gab.ai</a>"]
+
+        ]);
+
+        var table = new google.visualization.Table(document.getElementById('table_div'));
+
+        table.draw(data, {showRowNumber: true, width: '100%', height: '100%'});
+      }
+
+		    </script>
+		  </head>
+		</body>
+		<div id="table_div" style="height: 180px;"></div>
+		</body>
+		</html>

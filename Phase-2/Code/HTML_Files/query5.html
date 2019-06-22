@@ -1,0 +1,45 @@
+<html>
+  <head>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load("current", {packages:["corechart"]});
+      google.charts.setOnLoadCallback(drawChart);
+      function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+          ['language', 'lang_count'],
+          ['pt',     480560],
+          ['en',      187031],
+          ['ja',  10546],
+          ['tr', 9772],
+          ['es',    7936]
+          ['ru',    5430]
+          ['de',    3969]
+          ['en-gb',    3421]
+          ['fr',    3100]
+          ['hu',    1881]
+          ['nl',    1641]
+          ['cs',    1625]
+          ['id',    1395]
+          ['it',    1355]
+          ['vi',    919]
+          ['ko',    824]
+          ['pl',    511]
+          ['ar',    335]
+          ['pt-PT',    232]
+          ['zh-cn',    201]
+        ]);
+
+        var options = {
+          title: 'language count',
+          pieHole: 0.4,
+        };
+
+        var chart = new google.visualization.PieChart(document.getElementById('donutchart'));
+        chart.draw(data, options);
+      }
+    </script>
+  </head>
+  <body>
+    <div id="donutchart" style="width: 900px; height: 500px;"></div>
+  </body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+<body>
+  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <div id="chart_div"></div>
+    <<script type="text/javascript">
+      google.charts.load('current', {packages: ['corechart', 'bar']});
+google.charts.setOnLoadCallback(drawBasic);
+
+function drawBasic() {
+
+      var data = google.visualization.arrayToDataTable([
+        ['entities_hashtag', 'count',],
+        ['monero', 90],
+        ['ripple', 99],
+        ['dogecoin', 71],
+        ['bitcoin', 7817],
+        ['ethereum', 463]
+      ]);
+
+      var options = {
+        title: 'number of people talking about cryptocurrencies',
+        chartArea: {width: '50%'},
+        hAxis: {
+          title: 'count',
+          minValue: 0
+        },
+        vAxis: {
+          title: 'entities_hashtags'
+        }
+      };
+
+      var chart = new google.visualization.BarChart(document.getElementById('chart_div'));
+
+      chart.draw(data, options);
+    }
+
+    </script>
+<div id="table_div" style="height: 180px;"></div>
+</html>

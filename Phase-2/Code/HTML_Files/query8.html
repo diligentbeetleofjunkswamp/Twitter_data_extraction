@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+<body>
+  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+  <div id="chart_div"></div>
+  <script type="text/javascript">
+    google.charts.load('current', {packages: ['corechart', 'bar']});
+    google.charts.setOnLoadCallback(drawMultSeries);
+
+    function drawMultSeries() {
+      var data = google.visualization.arrayToDataTable([
+      ['Name', 'count'],
+      ['EllenHughes4u',     220031],
+      ['Toastbye42',        211724],
+      ['cicicastillo',     211703],
+      ['CHOR1P4N',          130474],
+      ['Kaorilove6',        130473],
+      ['paizurizilla',      113071],
+      ['RicheuFernando',    104487],
+      ['Jean_Marvin_C',     104484],
+      ['rodrigaoboloti1',   104484],
+      ['benites_rosane',    104482],
+      ['carinasofiatei',    104481],
+      ['anapequenina1',     104481],
+      ['ashyyy02',          97536],
+      ['gelloseco',         96797],
+      ['morpheu',           96796],
+      ['dansteixeira',      96794],
+      ['ohausne',           96791],
+      ['youtharii',         94874],
+      ['florsete',          92388],
+      ['lilatruz',          92387]
+
+      ]);
+
+      var options = {
+        title: 'top 20 most favourite tweets',
+        chartArea: {width: '50%'},
+        hAxis: {
+          title: 'count',
+          minValue: 0
+        },
+        vAxis: {
+          title: 'Name'
+        }
+      };
+
+      var chart = new google.visualization.BarChart(document.getElementById('chart_div'));
+      chart.draw(data, options);
+    }
+
+  </script>
+</head>
+</body>
+<div id="chart_div" style="height: 180px;"></div>
+</body>
+</html>
