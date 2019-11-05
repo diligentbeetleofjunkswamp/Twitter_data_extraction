@@ -1,7 +1,7 @@
-twitterAccessToken = "1039581348267216896-X356h5IuiIWuiHNIR4sgMbIoe6Czq4"
-twitterAccessTokenSecret = "wlUWfSuJnLGlczTaKN1HBlDr6EMrBHIniYSteegTG7hKB"
-myConsumerKey = "Y3ndR0ynAmxZhe39U7bFORvNM"
-myConsumerSecret = "gIKPFvZKJk0EXMyoFSn3TZOzaptkktcG8LUGAuhrOxOwDRSZZV"
+twitterAccessToken = "1039581348267216896-X356h5IuiIWuiHbIoe6Czq4"
+twitterAccessTokenSecret = "wlUWfSuJnLGlczTaKN1HBlDr6EMrBHeegTG7hKB"
+myConsumerKey = "Y3ndR0ynAmxZhe39UORvNM"
+myConsumerSecret = "gIKPFvZKJk0EXMyoFSn3TZOG8LUGAuhrOxOwDRSZZV"
 
 import tweepy
 from tweepy.streaming import StreamListener
